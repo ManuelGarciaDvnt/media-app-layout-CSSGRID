@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LAYOUT FIX</title>
+</head>
+<body>
+    <div class="container">
+        <header class="toolbar">
+
+        </header>
+        <main class="media">
+
+        </main>
+        <aside class="media-description">
+
+        </aside>
+        <footer class="comments-suggestion">
+
+        </footer>
+    </div>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            outline: solid 1px rgba(0,0,0,.2);
+        }
+        .container{
+            min-height: 100vh;
+            display: grid;
+            grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+        }
+        .toolbar{
+            background-color: rgb(84, 119, 231);
+            grid-row: 1 / -1;
+        }
+        .media{
+            background-color: rgb(221, 63, 63);
+            grid-column: 2 / -1;
+            grid-row: 1 / span 3;
+        }
+        .media-description{
+            background-color: rgb(163, 172, 168);
+            grid-column: 2 / -1;
+        }
+        .comments-suggestion{
+            background-color: rgb(124, 77, 233);
+            grid-column: 2 / -1;
+            grid-row: 5 / -1;
+        }
+    </style>
+</body>
+</html>
