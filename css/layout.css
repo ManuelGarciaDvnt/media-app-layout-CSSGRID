@@ -8,28 +8,33 @@
 .container {
     min-height: 100vh;
     display: grid;
-    grid-template: 120px 120px 120px 150px 1fr 1fr / repeat(4, 1fr);
+    grid-template: 125px 125px 125px 150px 1fr 1fr / repeat(4, 1fr);
 }
 .toolbar {
     background-color: var(--color-primary);
     grid-row: 1 / -1;
     color: var(--color-white);
+    padding: 50px 22px;
   }
   .media {
+      position: relative;
     grid-column: 2 / -1;
     grid-row: 1 / span 3;
   }
   .media-desc {
     grid-column: 2 / -1;
     grid-row: 4 / span 1;
+    border-bottom: solid 2px var(--color-gray-light);
   }
   .comments {
     grid-column: 2 / span 2;
     grid-row: 5 / -1;
+    padding: 20px;
   }
   .suggestions {
     grid-column: 4 / -1;
     grid-row: 5 / span 2;
+    padding: 20px;
   }
 
   .app-logo {
@@ -188,7 +193,7 @@
 }
 
 .comments-container{
-    padding: 20px;
+    padding: 10px;
 }
 
 .comment{
@@ -206,4 +211,8 @@
 
 .comment-subject{
     font-weight: bold;
+}
+
+.suggestion{
+    margin-bottom: 20px;
 }
