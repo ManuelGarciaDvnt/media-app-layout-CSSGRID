@@ -1,56 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>LAYOUT FIX</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/general.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="toolbar">
-
-        </header>
-        <main class="media">
-
-        </main>
-        <aside class="media-description">
-
-        </aside>
-        <footer class="comments-suggestion">
-
-        </footer>
+      <header class="toolbar">
+        <figure class="app-logo">
+          Platzi <span class="logoR">VIDEO</span>
+        </figure>
+        <nav class="nav-section">
+          <h2 class="section-title">My PlayList</h2>
+          <div class="pl-videos">
+            <span class="id">1</span>
+            <span class="pl-video-title"
+              >5 Reasons To Choose A Notebook Over a Computer Desktop</span
+            >
+            <span class="id">2</span>
+            <span class="pl-video-title"
+              >Get Around Easily With a New York Limousine Service</span
+            >
+            <span class="id">3</span>
+            <span class="pl-video-title active"
+              >Dancin Aaron Smith 10 hours</span
+            >
+            <span class="id">4</span>
+            <span class="pl-video-title">Anime Crack #23 ep2</span>
+            <span class="id">5</span>
+            <span class="pl-video-title">How to entry to area 51</span>
+            <span class="id">6</span>
+            <span class="pl-video-title">Dev Materials</span>
+            <span class="id">7</span>
+            <span class="pl-video-title"
+              >Palomas peleando por un pan con música de Linkin Park de
+              fondo</span
+            >
+            <span class="id">8</span>
+            <span class="pl-video-title">How to Cook A Tender Juicy Steak</span>
+            <span class="id">9</span>
+            <span class="pl-video-title">How to Remove Kidney Stones</span>
+            <span class="id">10</span>
+            <span class="pl-video-title">The Science Of Superstitions </span>
+          </div>
+        </nav>
+        <nav class="nav-section">
+          <h2 class="section-title">PlayList de mis amigos</h2>
+          <div class="pl-friends">
+            <figure class="pl-friend-img">
+              <img src="./src/img/pl-profile1.jpg" alt="friend-img" />
+            </figure>
+            <span class="pl-friend-title">Gordon Caroll</span>
+            <figure class="pl-friend-img">
+              <img src="./src/img/pl-profile2.jpg" alt="friend-img" />
+            </figure>
+            <span class="pl-friend-title">Adeline Wilkis</span>
+            <figure class="pl-friend-img">
+              <img src="./src/img/pl-profile3.jpg" alt="friend-img" />
+            </figure>
+            <span class="pl-friend-title active">Jhon Wheler</span>
+            <figure class="pl-friend-img">
+              <img src="./src/img/pl-profile4.jpg" alt="friend-img" />
+            </figure>
+            <span class="pl-friend-title">Christian Rafael Guado</span>
+          </div>
+        </nav>
+      </header>
+      <main class="media">
+        <a href="javascript:;" class="media-back-btn">
+          <i class="icon">
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="459px"
+              height="459px"
+              viewBox="0 0 459 459"
+              style="enable-background:new 0 0 459 459;"
+              xml:space="preserve"
+            >
+              <g id="reply">
+                <path
+                  d="M178.5,140.25v-102L0,216.75l178.5,178.5V290.7c127.5,0,216.75,40.8,280.5,130.05C433.5,293.25,357,165.75,178.5,140.25z"
+                />
+              </g>
+            </svg>
+          </i>
+        </a>
+      </main>
+      <aside class="media-desc">
+        <div class="media-description">
+          <h2 class="media-title">Dancin Aaron Smith 1 hour</h2>
+          <span class="media-views">124,886 vistas</span>
+        </div>
+        <div class="media-toolpanel">
+          <button class="btn-addTolist">Agregar a mi lista</button>
+          <a href="javascript:;" class="btn-share">
+            <i class="icon">
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="459px"
+                height="459px"
+                viewBox="0 0 459 459"
+                style="enable-background:new 0 0 459 459;"
+                xml:space="preserve"
+              >
+                <g id="reply">
+                  <path
+                    d="M178.5,140.25v-102L0,216.75l178.5,178.5V290.7c127.5,0,216.75,40.8,280.5,130.05C433.5,293.25,357,165.75,178.5,140.25z"
+                  />
+                </g>
+              </svg>
+            </i>
+            <span>Compartir</span>
+          </a>
+          <a href="javascript:;" class="btn-save">
+            <i class="icon">
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="548.176px"
+                height="548.176px"
+                viewBox="0 0 548.176 548.176"
+                style="enable-background:new 0 0 548.176 548.176;"
+                xml:space="preserve"
+              >
+                <path
+                  d="M524.326,297.352c-15.896-19.89-36.21-32.782-60.959-38.684c7.81-11.8,11.704-24.934,11.704-39.399
+                                 c0-20.177-7.139-37.401-21.409-51.678c-14.273-14.272-31.498-21.411-51.675-21.411c-18.083,0-33.879,5.901-47.39,17.703
+                                 c-11.225-27.41-29.171-49.393-53.817-65.95c-24.646-16.562-51.818-24.842-81.514-24.842c-40.349,0-74.802,14.279-103.353,42.83
+                                 c-28.553,28.544-42.825,62.999-42.825,103.351c0,2.474,0.191,6.567,0.571,12.275c-22.459,10.469-40.349,26.171-53.676,47.106
+                                 C6.661,299.594,0,322.43,0,347.179c0,35.214,12.517,65.329,37.544,90.358c25.028,25.037,55.15,37.548,90.362,37.548h310.636
+                                 c30.259,0,56.096-10.711,77.512-32.12c21.413-21.409,32.121-47.246,32.121-77.516C548.172,339.944,540.223,317.248,524.326,297.352
+                                 z M362.595,308.344L262.38,408.565c-1.711,1.707-3.901,2.566-6.567,2.566c-2.664,0-4.854-0.859-6.567-2.566L148.75,308.063
+                                 c-1.713-1.711-2.568-3.901-2.568-6.567c0-2.474,0.9-4.616,2.708-6.423c1.812-1.808,3.949-2.711,6.423-2.711h63.954V191.865
+                                 c0-2.474,0.905-4.616,2.712-6.427c1.809-1.805,3.949-2.708,6.423-2.708h54.823c2.478,0,4.609,0.9,6.427,2.708
+                                 c1.804,1.811,2.707,3.953,2.707,6.427v100.497h63.954c2.665,0,4.855,0.855,6.563,2.566c1.714,1.711,2.562,3.901,2.562,6.567
+                                 C365.438,303.789,364.494,306.064,362.595,308.344z"
+                />
+              </svg>
+            </i>
+            <span>Guardar</span>
+          </a>
+          <div class="categories">
+            <a href="javascript:;" class="categorie purple">Electronic</a>
+            <a href="javascript:;" class="categorie aqua">Roc</a>
+            <a href="javascript:;" class="categorie red">80</a>
+            <a href="javascript:;" class="categorie pink">Rela</a>
+          </div>
+        </div>
+      </aside>
+      <div class="comments">
+        <h2 class="section-title">Comentarios</h2>
+        <form action="#" class="comment-form">
+          <figure class="profile-img">
+            <img src="./src/img/pl-profile2.jpg" alt="profile-img" />
+          </figure>
+          <input
+            type="text"
+            class="input-comment"
+            placeholder="Añade un comentario"
+          />
+        </form>
+        <div class="comments-container">
+          <div class="comment">
+            <figure class="comment-profile-img">
+              <img src="./src/img/pl-profile1.jpg" alt="profilecomment" />
+            </figure>
+            <div class="comment-text">
+              <p class="comment-subject">Gordon Caroll</p>
+              <p class="comment-content">
+                Barbecue Sauce For a Perfect Barbeque
+              </p>
+            </div>
+          </div>
+          <div class="comment">
+            <figure class="comment-profile-img">
+              <img src="./src/img/pl-profile3.jpg" alt="profilecomment" />
+            </figure>
+            <div class="comment-text">
+              <p class="comment-subject">Randal Rosales R.</p>
+              <p class="comment-content">
+                Barbecue Sauce For a Perfect Barbeque
+              </p>
+            </div>
+          </div>
+          <div class="comment">
+            <figure class="comment-profile-img">
+              <img src="./src/img/pl-profile4.jpg" alt="profilecomment" />
+            </figure>
+            <div class="comment-text">
+              <p class="comment-subject">Christian Rafael G</p>
+              <p class="comment-content">
+                Barbecue Sauce For a Perfect Barbeque
+              </p>
+            </div>
+          </div>
+          <div class="comment">
+            <figure class="comment-profile-img">
+              <img src="./src/img/profile5.jpg" alt="profilecomment" />
+            </figure>
+            <div class="comment-text">
+              <p class="comment-subject">Elizabeth Olsen</p>
+              <p class="comment-content">
+                Barbecue Sauce For a Perfect Barbeque
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="suggestions">
+            <h2 class="section-title">Sugerencias</h2>
+            <div class="suggestion">
+                <figure class="suggestionCover">
+                    <img src="./src/img/recomended.jpg" alt="recomended-img">
+                </figure>
+                <p>Quick and Easy Lunches For The Cooking Challenged</p>
+            </div>
+            <div class="suggestion">
+                <figure class="suggestionCover">
+                    <img src="./src/img/recomended2.jpg" alt="recomended-img">
+                </figure>
+                <p>PlatziConf gratuita</p>
+            </div>
+    </div>
     </div>
     <style>
-        *{
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-            outline: solid 1px rgba(0,0,0,.2);
-        }
-        .container{
-            min-height: 100vh;
-            display: grid;
-            grid-template: repeat(6, 1fr) / repeat(4, 1fr);
-        }
-        .toolbar{
-            background-color: rgb(84, 119, 231);
-            grid-row: 1 / -1;
-        }
-        .media{
-            background-color: rgb(221, 63, 63);
-            grid-column: 2 / -1;
-            grid-row: 1 / span 3;
-        }
-        .media-description{
-            background-color: rgb(163, 172, 168);
-            grid-column: 2 / -1;
-        }
-        .comments-suggestion{
-            background-color: rgb(124, 77, 233);
-            grid-column: 2 / -1;
-            grid-row: 5 / -1;
-        }
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        outline: solid 1px rgba(0, 0, 0, 0.2);
+      }
+      .container {
+        min-height: 100vh;
+        display: grid;
+        grid-template: 120px 120px 120px 150px 1fr 1fr / repeat(4, 1fr);
+      }
+      .toolbar {
+        grid-row: 1 / -1;
+      }
+      .media {
+        grid-column: 2 / -1;
+        grid-row: 1 / span 3;
+      }
+      .media-desc {
+        grid-column: 2 / -1;
+        grid-row: 4 / span 1;
+      }
+      .comments {
+        grid-column: 2 / span 2;
+        grid-row: 5 / -1;
+      }
+      .suggestions {
+        grid-column: 4 / -1;
+        grid-row: 5 / span 2;
+      }
+
+      .app-logo {
+        font-weight: bold;
+        font-size: 33px;
+        margin-bottom: 35px;
+      }
+      .logoR {
+        color: var(--color-red);
+      }
+
+      .nav-section {
+        margin-bottom: 35px;
+      }
+
+      .section-title {
+        font-weight: normal;
+        margin-bottom: 35px;
+      }
+
+      .pl-videos {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        grid-gap: 10px;
+        font-size: 18px;
+      }
+
+      .pl-video-title.active {
+        color: var(--color-red);
+        font-weight: bold;
+      }
+
+      .pl-friends {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+      }
+
+      .pl-friend-img {
+        overflow: hidden;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+      }
+
+      .pl-friend-title {
+        display: flex;
+        align-items: center;
+      }
+
+      /*----------------------------------MEDIA-------------------------------------------*/
+
+      .media-back-btn {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+
+      /*----------------------------------DESCRIPTION-------------------------------------*/
+
+      .media-description {
+        grid-row: 1 / 2;
+        padding: 5px 20px;
+      }
+
+      .media-toolpanel {
+        grid-row: 2 / -1;
+        grid-column: 2 / -1;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .btn-addTolist {
+        background-color: var(--color-pink);
+        padding: 8px 5px;
+        border-radius: 6px;
+        color: var(--color-white);
+        margin-right: 12px;
+      }
+
+      .btn-share,
+      .btn-save {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin-right: 12px;
+        color: var(--color-text-light);
+      }
+
+      .icon svg path {
+        fill: var(--color-text-light);
+      }
+
+      .categories {
+        margin: 0px 12px;
+      }
+
+      .categorie {
+        padding: 4px 10px;
+        color: var(--color-white);
+        border-radius: 15px;
+      }
+
+      .categorie.purple {
+        background-color: var(--color-purple);
+      }
+
+      .categorie.aqua {
+        background-color: var(--color-skyblue);
+      }
+
+      .categorie.red {
+        background-color: var(--color-red);
+      }
+
+      .categorie.pink {
+        background-color: var(--color-pink);
+      }
+
+      /*------------------------------------------------COMMENTS--------------------------------------------*/
+
+      .comments-container{
+          overflow-y: auto;
+      }
+
     </style>
-</body>
+  </body>
 </html>
